@@ -1,0 +1,50 @@
+.weather-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D3F1DF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 450px;
+    max-height: 250px;
+    margin: auto;
+    margin-bottom: 10px;  
+}
+  
+.weather-section {
+    text-align: center;
+    margin: 5px;
+}
+  
+.temperature-section,
+.humidity-section {
+    width: 25%;
+}
+  
+.center-section {
+    width: 50%;
+    text-align: center;
+}
+  
+.title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+  
+.number {
+    font-size: 24px;
+    margin: 0;
+}
+  
+.weather-icon {
+    margin: 5px auto;
+}
+  
+.update-time {
+    text-align: right;
+    font-size: 12px;
+    margin-top: 20px;
+    width: 100%;
+}  
