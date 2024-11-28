@@ -1,9 +1,13 @@
 import './WeatherCard.css';
 
 function WeatherCard({ todayWeather }) {
-
+  // loading data
+  if (!todayWeather) {
+    return <p>Loading today weather...</p>;
+  }
+  // get icon code for url
   const icon = todayWeather.weather[0].icon;
-  const weatherDescription = todayWeather.weather[0].description;
+  // set the time for web update
   const updateTime = new Date(todayWeather.dt * 1000).toLocaleTimeString();
 
   return (
@@ -24,7 +28,7 @@ function WeatherCard({ todayWeather }) {
             className="weather-icon"
           />
         )}
-        <p>{weatherDescription}</p>
+        <p>{todayWeather.weather[0].description}</p>
         <p>{new Date(todayWeather.dt * 1000).toLocaleDateString('en-GB', {
             weekday: 'short', 
             month: 'short',   
