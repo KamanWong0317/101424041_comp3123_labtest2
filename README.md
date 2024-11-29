@@ -5,3 +5,6 @@ The bottom is showing the the weather for next few days
 ### After the user search other city
 Both block will be change
 ![螢幕擷取畫面 2024-11-28 190241](https://github.com/user-attachments/assets/5100609c-c6c8-4feb-b885-1a8ba63ffc2b)
+
+### Postman test:
+![螢幕擷取畫面 2024-11-28 193022](https://github.com/user-attachments/assets/a5fd6061-bdff-421c-9aa4-5dca6dfa00fe)
